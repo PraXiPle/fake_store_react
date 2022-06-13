@@ -1,0 +1,27 @@
+.cartDiv {
+    width: 240px;
+    height: 150px;
+    background-color: aliceblue;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cartPic {
+    width: 80px;
+    height: 80px;
+}
+
+.cartUl {
+    list-style: none;
+
+}
+
+.cartLi {
+    margin-top: 5px;
+}

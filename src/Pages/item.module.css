@@ -1,0 +1,29 @@
+.itemUl{
+    list-style: none;
+    font-size: 20px;
+}
+.itemPic{
+    width: 200px;
+    height: 200px;
+}
+.itemInfoDiv{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 500px;
+    min-height: 600px;
+    margin: auto;
+    border: 5px ridge gray;
+    margin-bottom: 20px;
+}
+.itemLi{
+    margin: 20px;
+}
+.itemTitle { 
+    
+    background-color: azure;
+    top: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px ridge gray;
+}

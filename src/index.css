@@ -1,13 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-transform: capitalize;
+  display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
 }
+ul{
+list-style: none;
+}
+a:any-link {
+  color: black;
+}
+
+#man {background-image: url(https://img.freepik.com/free-photo/men-s-clothing-set-with-oxford-shoes-watch-sunglasses-office-shirt-tie-jacket-isolated-white-background-top-view_107612-80.jpg?size=626&ext=jpg);}
+
+#women {background-image: url(https://previews.123rf.com/images/leszekczerwonka/leszekczerwonka1705/leszekczerwonka170500153/78661271-women-s-summer-clothes-on-wooden-table-fashion-background.jpg);}
+
+#jewelery {background-image: url(https://m.media-amazon.com/images/I/81R0Nh4WFpL.jpg);}
+
+#electronics {background-image: url(https://assets.architecturaldigest.in/photos/60084fc951daf9662c149bb9/master/pass/how-to-clean-gadgets-1366x768.jpg);}

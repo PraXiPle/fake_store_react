@@ -1,0 +1,12 @@
+.productBigDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productTitle {
+    background-color: azure;
+    top: 0;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px ridge gray;
+}

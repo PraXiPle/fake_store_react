@@ -1,0 +1,19 @@
+.buttonAddRemove {
+    background-color: rgb(53, 134, 247);
+    color: white;
+    border: 2px white;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+
+}
+
+.inStock {
+    font-size: 20px;
+}
+
+.buttonAddRemove:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}

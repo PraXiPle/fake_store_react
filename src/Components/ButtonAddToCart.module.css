@@ -1,0 +1,14 @@
+.buttonAddToCart {
+    font-size: 15px;
+    background-color: rgb(53, 134, 247);
+    font-weight: 600;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px white;
+}
+
+.buttonAddToCart:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}

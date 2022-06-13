@@ -1,0 +1,24 @@
+.loadingBigDiv {
+    font-size: 30px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.loadingDiv {
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    background-image: url(https://www.freeiconspng.com/thumbs/load-icon-png/load-icon-png-20.png);
+    animation: load infinite 1s linear;
+}
+
+@keyframes load {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,12 @@
+.cartDiv{
+width: 280px;
+height: 500px;
+text-align: center;
+border :2px solid black;
+margin-left:25px;
+margin-top:20px;
+overflow: auto;
+}
+.cartTitle{
+    
+}

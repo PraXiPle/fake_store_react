@@ -1,12 +1,14 @@
 import './App.css';
+import Header from './Components/Header';
+import Main from './Components/Main';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        dfsd
-      </header>
-    </div>
+  return (<div className='App'>
+
+    <Header />
+    <Main />
+  
+  </div>
   );
 }
 
