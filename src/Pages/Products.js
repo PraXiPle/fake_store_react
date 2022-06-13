@@ -19,7 +19,10 @@ export default function Product(props) {
 
                 <h2 className={style.productTitle}>{param}</h2>
                 <div className={style.productBigDiv}>
-                    {productArr.map(v => { return <ProductComponent item={v} id={v.id} AddTocart={props.AddTocart} RemoveFromCart={props.RemoveFromCart} inStock={props.cartArr.find(i => i.id === v.id)} title={v.title} img={v.image} price={v.price} key={v.id} /> })}
+                    {productArr.map(v => { return <ProductComponent item={v} id={v.id}
+                     AddTocart={props.AddTocart} RemoveFromCart={props.RemoveFromCart}
+                      inStock={props.cartArr.find(i => i.id === v.id)} title={v.title}
+                       img={v.image} price={v.price} key={v.id} /> })}
                 </div>
             </div> :
             <Loading />
